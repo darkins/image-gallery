@@ -53,7 +53,7 @@ a.active {
   .img-gallery img:hover {
     transform: scale(0.97);
     border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 26, 255, 0.377);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
   }
   
   .popup {
