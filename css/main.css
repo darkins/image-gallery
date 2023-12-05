@@ -3,6 +3,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 main, footer {
@@ -92,4 +93,15 @@ a.active {
     font-size: 35px;
     color: rgb(190, 0, 0);
     text-shadow: 0 0 3px black;
+  }
+
+  /* for mobile */
+  @media screen and (max-width: 30em) {
+    body {
+      font-size: 13px;
+    }
+    .container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
   }
