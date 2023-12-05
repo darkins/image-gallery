@@ -23,8 +23,15 @@ main, footer {
     align-items: center;
 }
 
-.top-space {
-    padding-top: 2rem;
+a {
+    text-decoration: none;
+    color: darkgreen;
+    padding: 0.5rem;
+}
+
+a.active {
+    color: green;
+    font-weight: 700;
 }
 
 
